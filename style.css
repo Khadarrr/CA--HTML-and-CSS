@@ -37,6 +37,7 @@ body {
 a {
   font-family: "Bebas Neue";
   font-size: large;
+  color: var(--black);
 }
 
 img {
