@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("/assets/BebasNeue-Regular.ttf") format(truetype);
+}
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --lime-green: #ccff00;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+html,
+body {
+  font-family: "Bebas Neue";
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-family: "Bebas Neue";
+  font-size: large;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.images {
+  max-width: 125px;
+}
+
+.images-2 {
+  max-width: 100px;
+}
+
+h1 {
+  color: var(--white);
+  background-color: var(--black);
+  min-height: 80px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+ul,
+li {
+  color: var(--black);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.hero-image {
+  height: fit-content;
+}
+
+.header-pic {
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.homepage-pic {
+  padding: 0;
+  width: 390px;
+}
+
+h2 {
+  text-align: center;
+}
+
+H3 {
+  color: #ffffff;
+}
+
+.main-content {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.explore {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: start;
+  width: 350px;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.button-explore {
+  background-color: var(--black);
+  padding: 8px 24px;
+  border-radius: 7px;
+  width: 165px;
+}
+.shop-man,
+.shop-woman {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+.button-man,
+.button-woman {
+  background-color: var(--black);
+  padding: 8px 24px;
+  border-radius: 7px;
+  width: 165px;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  padding-bottom: 100px;
+}
+.jackets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 250px;
+}
+.add-to-cart {
+  background-color: var(--black);
+  width: 180px;
+  padding: 8px 24px;
+  border-radius: 17px;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 150px;
+  padding-bottom: 100px;
+}
+
+.item {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.size-button {
+  background-color: var(--black);
+  padding: 8px 24px;
+  border-radius: 17px;
+}
+
+.cart-button {
+  background-color: var(--black);
+  width: 250px;
+  padding: 8px 24px;
+  border-radius: 17px;
+  text-align: center;
+}
+
+.cart-row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.c-cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.cart-row-2,
+.cart-row-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.hr {
+  padding-bottom: 20px;
+}
+
+.total-sum {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-spacing: 50px;
+}
+
+.shipping-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 33px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+
+.contact-about {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 100px;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  padding-bottom: 133px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+input,
+textarea {
+  width: 250px;
+}
+
+.forms-button {
+  background-color: var(--black);
+  padding: 8px 24px;
+  border-radius: 17px;
+  width: 300px;
+}
+
+.truck-logo {
+  max-width: 250px;
+}
+h3:hover,
+h1:hover {
+  color: var(--lime-green);
+}
+
+footer:hover {
+  background-color: var(--black);
+}
+
+/* 
+@media screen and (width: 320px) {
+    body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    } */
