@@ -294,10 +294,10 @@ H3 {
   gap: 33px;
 }
 
-input,
+/* input,
 textarea {
   width: 250px;
-}
+} */
 
 .forms-button {
   background-color: var(--black);
@@ -325,3 +325,9 @@ footer:hover {
         display: flex;
         flex-direction: column;
     } */
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+}

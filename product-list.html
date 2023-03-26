@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script defer src="/cart.js"></script>
     <title>Products</title>
   </head>
   <body>
@@ -41,61 +42,83 @@
       <section>
         <h2>PRODUCTS</h2>
       </section>
+      <div class="cart">
+        <strong>Cart</strong>
+        <ul id="cart-items"></ul>
+        <p>Total: <span id="cart-total">NOK 0</span></p>
+        <a href="/responsive-PL.html"><button class="add-to-cart"><h3>CONTINUE</h3></button></a>
+
+      </div>
       <section class="first-row">
         <div class="jackets">
-          <a href="/responsive-PL.html">
+          
             <img src="/assets/RainyDays_Jacket2.png" alt="Rainydays jacket" />
-          </a>
+          
           <img
             class="images-2"
             src="/assets/star-rating1.png"
             alt="4.3 star rating image"
           />
           <strong>NOK 899</strong>
-          <button class="add-to-cart">
-            <a href="/responsive-PL.html"><h3>ADD TO CART</h3></a>
+          <button
+            data-name="jacket 1"
+            data-price="899"
+            class="add-to-cart"
+          >
+            <h3>ADD TO CART</h3>
           </button>
         </div>
         <div class="jackets">
-          <a href="/responsive-PL.html">
+          
             <img src="/assets/RainyDays_Jacket3.png" alt="Rainydays jacket" />
-          </a>
+          
           <img
             class="images-2"
             src="/assets/star-rating.png"
             alt="5 star rating image"
           />
           <strong>NOK 599</strong>
-          <button class="add-to-cart">
-            <a href="/responsive-PL.html"><h3>ADD TO CART</h3></a>
+          <button
+            data-name="jacket 2"
+            data-price="599"
+            class="add-to-cart"
+          >
+            <h3>ADD TO CART</h3>
           </button>
         </div>
         <div class="jackets">
-          <a href="/responsive-PL.html">
+          
             <img src="/assets/RainyDays_Jacket1.png" alt="Rainydays jacket" />
-          </a>
+          
           <img
             class="images-2"
             src="/assets/star-rating1.png"
             alt="4.3 star rating image"
           />
           <strong>NOK 1499</strong>
-          <button class="add-to-cart">
-            <a href="/responsive-PL.html"><h3>ADD TO CART</h3></a>
+          <button
+            data-name="jacket 3"
+            data-price="1499"
+            class="add-to-cart"
+          >
+            <h3>ADD TO CART</h3>
           </button>
         </div>
         <div class="jackets">
-          <a href="/responsive-PL.html">
+          
             <img src="/assets/RainyDays_Jacket4.png" alt="Rainydays jacket" />
-          </a>
+          
           <img
             class="images-2"
             src="/assets/star-rating1.png"
             alt="star rating image"
           />
           <strong>NOK 1499</strong>
-          <button class="add-to-cart">
-            <a href="/responsive-PL.html"><h3>ADD TO CART</h3></a>
+          <button
+          data-name="jacket 4"
+          data-price="1499" 
+          class="add-to-cart">
+            <h3>ADD TO CART</h3>
           </button>
         </div>
       </section>
@@ -103,43 +126,52 @@
         <div class="jackets">
           <a href="/product-list.html">
             <img src="/assets/RainyDays_Jacket5.png" alt="Rainydays jacket" />
-          </a>
+          
           <img
             class="images-2"
             src="/assets/star-rating1.png"
             alt="4.3 star rating image"
           />
           <strong>NOK 899</strong>
-          <button class="add-to-cart">
-            <a href="/responsive-PL.html"><h3>ADD TO CART</h3></a>
+          <button 
+          data-name="jacket 5"
+          data-price="899" 
+          class="add-to-cart">
+            <h3>ADD TO CART</h3>
           </button>
         </div>
         <div class="jackets">
-          <a href="/responsive-PL.html">
+          
             <img src="/assets/RainyDays_Jacket7.png" alt="Rainydays jacket" />
-          </a>
+          
           <img
             class="images-2"
             src="/assets/star-rating1.png"
             alt="4.3 star rating"
           />
           <strong>NOK 399</strong>
-          <button class="add-to-cart">
-            <a href="/responsive-PL.html"><h3>ADD TO CART</h3></a>
+          <button
+          data-name="jacket 6"
+          data-price="399" 
+          class="add-to-cart">
+            <h3>ADD TO CART</h3>
           </button>
         </div>
         <div class="jackets">
-          <a href="/responsive-PL.html">
+          
             <img src="/assets/RainyDays_Jacket6.png" alt="Rainydays jacket" />
-          </a>
+          
           <img
             class="images-2"
             src="/assets/star-rating.png"
             alt="5 star rating image"
           />
           <strong>NOK 1499</strong>
-          <button class="add-to-cart">
-            <a href="/product-list.html"><h3>ADD TO CART</h3></a>
+          <button
+          data-name="jacket 7"
+          data-price="1499" 
+          class="add-to-cart">
+            <h3>ADD TO CART</h3>
           </button>
         </div>
       </section>
