@@ -1,5 +1,5 @@
 const blogContainer = document.querySelector("#blog-post");
-const url = "http://ca-cms.local/wp-json/wp/v2/posts/"
+const url = "https://rainydayscmsca.flywheelsites.com/wp-json/wp/v2/posts/"
 
 async function fetchBloggPost() {
     try {
